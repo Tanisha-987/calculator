@@ -1,0 +1,59 @@
+#main 
+{
+    width: 320px;
+    height: 450px;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: black;
+    border : 5px groove deeppink;
+    box-shadow: 2px 3px 25px 1px deeppink;
+    outline: 6px solid black;
+    outline-offset: 10px;
+}
+
+.result
+{
+    width:285px ;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.input
+{
+    width: 65px;
+    height: 60px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#i1
+{
+    background-color: #54f654;
+}
+
+#i2
+{
+    background-color: red;
+}
+
+#t1
+{
+    background-color: rgb(255, 255, 0);
+}
+.input:hover 
+{
+    background-color: pink;
+    border: 6px solid deeppink;
+}
+
+.result:hover
+{
+    background-color: pink;
+    border: 6px solid deeppink;
+}
